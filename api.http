@@ -1,0 +1,21 @@
+GET http://localhost:3000/api/projects 
+
+###
+GET http://localhost:3000/api/projects/2ed74adb-03c3-44d2-9837-095b92295900
+
+###
+POST http://localhost:3000/api/projects
+Content-Type: application/json
+
+{
+    "name": "Project 1",
+    "description": "This is project 1"
+}
+
+###
+POST http://localhost:3000/api/projects/2ed74adb-03c3-44d2-9837-095b92295900/start
+Content-Type: application/json
+
+{
+    "started_at": "2020-01-01"
+}
