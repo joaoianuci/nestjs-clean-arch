@@ -6,3 +6,5 @@ import { ListProjectsUseCase } from "./list-projects.use-case";
 import { StartProjectUseCase } from "./start-project.use-case";
 
 export const projectUseCases = [CreateProjectUseCase, ListProjectsUseCase, GetProjectUseCase, DeleteProjectUseCase, CancelProjectUseCase, StartProjectUseCase];
+
+export { CreateProjectUseCase, ListProjectsUseCase, GetProjectUseCase, DeleteProjectUseCase, CancelProjectUseCase, StartProjectUseCase };
